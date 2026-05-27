@@ -74,7 +74,7 @@ export default function Login() {
     >
       {/* Logo da clinica */}
       <Box sx={{ mb: 5 }}>
-        <Logo variant="login" />
+        <Logo height={140} />
       </Box>
 
       {/* Card de login */}
