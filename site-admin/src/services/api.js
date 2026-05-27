@@ -5,7 +5,7 @@ import axios from 'axios';
  * https://backend-maya-cydf-mayarpg.vercel.app por padrao. Ajuste em .env se necessario.
  */
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'https://backend-maya-cydf-mayarpg.vercel.app',
+  baseURL: import.meta.env.VITE_API_URL || 'https://backend-maya.vercel.app',
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json'
