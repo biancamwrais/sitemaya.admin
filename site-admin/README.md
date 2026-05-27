@@ -16,7 +16,7 @@ pacientes, agenda, biblioteca de exercícios, funcionários e perfil profissiona
 ### 1. Pré-requisitos
 
 - **Node.js 18+** instalado
-- **Backend Node.js do Maya RPG rodando** em `http://localhost:3000`
+- **Backend Node.js do Maya RPG rodando** em `https://backend-maya-cydf-mayarpg.vercel.app
   (com banco MySQL importado)
 
 ### 2. Instalar dependências
@@ -31,7 +31,7 @@ npm install
 Crie um arquivo `.env` na raiz do projeto:
 
 ```env
-VITE_API_URL=http://localhost:3000/api
+VITE_API_URL=https://backend-maya-cydf-mayarpg.vercel.app
 ```
 
 > Se o seu backend estiver em outro endereço, ajuste essa URL.
@@ -109,7 +109,7 @@ Cores principais (mesmas do app mobile):
 - O backend precisa estar com `cors()` habilitado (já está em `backend/src/server.js`)
 
 ### "Network Error" / página em branco
-- Verifique se o backend está rodando em `http://localhost:3000`
+- Verifique se o backend está rodando em `https://backend-maya-cydf-mayarpg.vercel.app`
 - Verifique se o `.env` tem `VITE_API_URL` correto
 
 ### "Acesso restrito a administradores"

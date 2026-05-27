@@ -2,10 +2,10 @@ import axios from 'axios';
 
 /**
  * Cliente HTTP do site admin. O backend do Maya RPG roda em
- * http://localhost:3000/api por padrao. Ajuste em .env se necessario.
+ * https://backend-maya-cydf-mayarpg.vercel.app por padrao. Ajuste em .env se necessario.
  */
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:3000/api',
+  baseURL: import.meta.env.VITE_API_URL || 'https://backend-maya-cydf-mayarpg.vercel.app',
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json'
